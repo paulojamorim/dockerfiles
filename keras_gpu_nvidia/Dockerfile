@@ -16,7 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
             libcudnn6-dev=$CUDNN_VERSION-1+cuda8.0 \
             bzip2 g++ gcc git graphviz \
             libgl1-mesa-glx libhdf5-dev openmpi-bin \
-            python-dev python-pip python-setuptools python-vtk \ 
+            python-dev python-pip python-setuptools python-vtk6 \ 
             python-vtkgdcm python-gdcm wget \
 	        tmux ipython vim && \
             rm -rf /var/lib/apt/lists/* && \
