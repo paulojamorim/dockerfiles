@@ -1,4 +1,4 @@
-##To construct the image:
+## To construct the image:
 
 ```
 podman build -t my_image_name .
@@ -6,7 +6,7 @@ podman build -t my_image_name .
 
 *Be patient as it takes a little while.*
 
-##To run
+## To run
 
 Python code inside the container using the previously created image, you can follow these steps:
 
